@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7fbf2832-897e-4848-a767-e9e7a3b84e6c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/blog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/blog/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/blog/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/blog/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/blog/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/blog/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/blog/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/blog/templatetags/censored_words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/blog/templatetags/custom_filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/blog/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/blog/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/blog/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/news_portal/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/news_portal/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/news_portal/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/news_portal/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/news_portal/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/templates/flatpages/default.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/templates/post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/templates/posts.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2crfP2EsiHe6vkTiZ5I5Topshmv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.data.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/news_portal/blog" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/news_portal/blog/data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.data" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7fbf2832-897e-4848-a767-e9e7a3b84e6c" name="Changes" comment="" />
+      <created>1708874591498</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708874591498</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
