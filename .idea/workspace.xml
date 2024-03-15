@@ -5,35 +5,79 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fbf2832-897e-4848-a767-e9e7a3b84e6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news_portal/blog/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news_portal/blog/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news_portal/blog/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news_portal/blog/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news_portal/blog/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news_portal/blog/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news_portal/blog/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news_portal/blog/templatetags/censored_words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news_portal/blog/templatetags/custom_filters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news_portal/blog/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news_portal/blog/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news_portal/blog/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news_portal/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news_portal/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news_portal/news_portal/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news_portal/news_portal/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news_portal/news_portal/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news_portal/news_portal/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news_portal/news_portal/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news_portal/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news_portal/templates/flatpages/default.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news_portal/templates/post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news_portal/templates/posts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filter-23.5.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filter-23.5.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filter-23.5.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filter-23.5.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filter-23.5.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filter-23.5.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/filterset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/ar/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/ar/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/be/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/be/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/bg/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/bg/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/cs/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/cs/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/da/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/da/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/de/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/de/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/el/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/el/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/es/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/es/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/es_AR/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/es_AR/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/fa/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/fa/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/fi/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/fr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/fr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/it/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/it/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/nl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/nl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/pl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/pl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/pt_BR/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/pt_BR/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/ro/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/ru/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/sk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/sk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/uk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/uk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/zh_CN/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/locale/zh_CN/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/rest_framework/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/rest_framework/backends.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/rest_framework/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/rest_framework/filterset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/templates/django_filters/rest_framework/crispy_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/templates/django_filters/rest_framework/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/templates/django_filters/widgets/multiwidget.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django_filters/widgets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/blog/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/blog/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/blog/templatetags/custom_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_portal/templates/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_portal/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/news_portal/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_portal/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/news_portal/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_portal/news_portal/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/news_portal/news_portal/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_portal/templates/posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/news_portal/templates/posts.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +87,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
