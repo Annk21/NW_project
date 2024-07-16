@@ -27,6 +27,7 @@ class Author(models.Model):
 
 class Category(models.Model):
     name = models.CharField(unique=True, max_length=128)
+    subscribers = models.ManyToManyField(User, related_name='categories')
 
     def __repr__(self):
         return f"Category (name='{self.name}')"
@@ -62,6 +63,9 @@ class Post(models.Model):
     def dislike(self):
         self.rating -= 1
         self.save()
+
+    def get_absolute_url(self):
+        return f'/news/{self.id}'
 
     def preview(self, length=124) -> str:
         return f'{self.text[:length]}...' if len(self.text) > length else self.text

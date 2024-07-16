@@ -8,21 +8,25 @@ Posts
  
 
 {% block content %}
+    {% if is_not_subscriber %}
+        <p class="text-center"><a href="{% url 'subscribe' category.id %}" class="btn btn-secondary btn-sm">Подписаться</a></p>
+    {% endif %}
     {% if is_not_authors %}
         <button><a href="{% url 'upgrade' %}">Стать автором</a></button>
     {% endif %}
     <h1>Все посты</h1>
     <h3>Всего постов: {{ posts|length }}</h3>
     <hr>
-    {% if posts %}
+    {% if category_posts_list %}
         <table>
             <tr>
                 <td>Заголовок</td>
+                <td>Категории</td>
                 <td>Дата публикации</td>
                 <td>Текст</td>
-                <td>Категории</td>
             </tr>
-        {% for post in filter.qs %}
+
+            {% for post in category_posts_list %}
             <tr>
                 <td>
                     <a href="{% url 'search' post.id %}">{{ post.title | censor }}</a>
@@ -30,19 +34,15 @@ Posts
                     <a href="{% url 'post_delete' post.id %}"><u>Удалить</u></a>
                 </td>
                 <td>
-                    {% for category in post.category.all %}
+                    {% for category in post.category.all() %}
                         <a href="{% url 'category_list' category.id %}">{{ category }}</a>
                     {% endfor %}
                 </td>
-            </tr>
-        {% endfor %}
-        {% for post in posts %}
-            <tr>
                 <td>{{ post.title|censor }}</td>
                 <td>{{ post.date_time|date:'d M Y' }}</td>
                 <td>{{ post.text|truncatewords:20|censor }}</td>
             </tr>
-        {% endfor %}
+            {% endfor %}
         </table>
     {% else %}
         <h1>Постов нет!</h1>
