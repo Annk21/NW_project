@@ -1,6 +1,8 @@
+from django.http import HttpResponse
 from django.urls import reverse_lazy
 from datetime import datetime
 from django.shortcuts import render
+from django.views import View
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from .models import Post, Category
 from .filters import PostFilter
@@ -11,6 +13,7 @@ from django.shortcuts import redirect, get_object_or_404
 from django.contrib.auth.models import Group
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import PermissionRequiredMixin
+from .tasks import hello, printer
 
 
 class PostsList(ListView):
@@ -169,5 +172,12 @@ def subscribe(request, pk):
 
     message = 'Вы успешно подписались на рассылку новостей категории!'
     return render(request, 'subscribe_html', {'category':category, 'message': message})
+
+
+class IndexView(View):
+    def get(self, request):
+        printer.delay(10)
+        hello.delay()
+        return HttpResponse('Hello!')
 
 
